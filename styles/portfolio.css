@@ -1,29 +1,85 @@
 
+/* RESET */
+
+:root{
+    --branding-color: black;
+    --secondary-color: white;
+    --light-color:#343F45;
+    --details-color: linear-gradient(90deg, rgb(235, 83, 128), rgb(139, 102, 241));
+    --default-font-family: "Ancizar Sans", sans-serif;
+    --secondary-font-family: "Big Shoulders Inline", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 body{
-    background: white;
+    background: var(--secondary-color);
 }
+
+
+/* HEADER */
 
 h1{
-    font-family: big shoulders inline;
-    color: white;
+    font-family: var(--secondary-font-family);
     font-weight: light 300;
     font-size: 3rem;
+    background: var(--details-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
-p,h2,h3,h4{
-    font-family: "Ancizar Sans", sans-serif;
-    font-weight: 500;
+
+p,h2{
+    font-family: var(--default-font-family);
+    font-weight: 300;
+    font-size: 25px;
+
+    
 }
+
 .hero{
-    background-color: black;
+    background-color: var(--branding-color);
     text-align: center;
-    color: white;
+    color: var(--secondary-color);
+    padding: 160px 20px;
 }
 
 .hero p{
-    font-size: 36px;
+    color: var(--light-color);
 
+
+}
+
+/* BUTTON */
+
+.btn{
+background-color: var(--light-color);
+font-size: 12px;
+font-weight: 500;
+text-transform: uppercase ;
+color: var(--secondary-color);
+padding: 8px 15px;
+border-radius: 5000px;
+transition: transformt 0.5s;
+line-height: 27px;
+
+}
+
+.btn:hover{
+    transform: scale(1.15);
+    background-image: var(--details-color); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
 }
