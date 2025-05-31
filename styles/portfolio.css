@@ -6,12 +6,24 @@ body{
 }
 
 h1{
-    color: black;
-    font-family: "Ancizar Sans", light ;
+    font-family: big shoulders inline;
+    color: white;
+    font-weight: light 300;
+    font-size: 3rem;
+
 }
 
-p{
-    color: black;
-    font-family: "Ancizar Sans", light ;
+p,h2,h3,h4{
+    font-family: "Ancizar Sans", sans-serif;
+    font-weight: 500;
+}
+.hero{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.hero p{
+    font-size: 36px;
 
 }
