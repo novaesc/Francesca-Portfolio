@@ -23,7 +23,7 @@ a {
 
 
 body{
-    background: var(--secondary-color);
+    background: var(--branding-color);
 
 }
 
@@ -33,10 +33,11 @@ body{
 h1{
     font-family: var(--secondary-font-family);
     font-weight: light 300;
-    font-size: 3rem;
+    font-size: 90px;
     background: var(--details-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    line-height: 1.5;
 
 }
 
@@ -45,8 +46,8 @@ h1{
 h2{
     font-family: var(--default-font-family);
     font-weight: 300;
-    font-size: 64px;
-    color: var(--branding-color);
+    font-size: 50px;
+    color: var(--secondary-color);
 }
 
 .hero{
@@ -67,13 +68,12 @@ h2{
 
 
 }
-.hero p{
+.hero-tagline{
     color: var(--light-color);
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: var(--default-font-family);
-
-
+    line-height: 1;
 
 }
  
@@ -83,7 +83,7 @@ p{
     font-family: var(--default-font-family);
     font-weight: 300;
     font-style: normal;
-    color: var(--branding-color);
+    color: var(--secondary-color);
     line-height: 30px;
 }
 /* BUTTON */
@@ -134,6 +134,24 @@ color: transparent;
     padding:120px 60px;
 }
 
+
+@media (max-width: 900px) {
+ h1 {
+        font-size: 50px;
+        line-height: 1.5;
+    }
+    
+ .hero h2{
+        font-size: 1.2rem;
+    }
+ .hero{
+        padding: 80px 20px;
+    }
+ .hero-tagline{
+        font-size: 1.2rem;
+    }
+    
+}
 @media (max-width: 900px) {
     .project-description{
         padding: 0;
