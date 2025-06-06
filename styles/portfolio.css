@@ -33,7 +33,7 @@ body{
 h1{
     font-family: var(--secondary-font-family);
     font-weight: light 300;
-    font-size: 90px;
+    font-size: 70px;
     background: var(--details-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -57,6 +57,31 @@ h2{
     padding: 160px 20px;
    
 }
+
+.about-section{
+    padding: 160px 20px;
+
+}
+
+.about-section h1{
+    font-size: 64px;
+    line-height: 1.5;
+
+}
+
+.about-section h2{
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--secondary-color);
+    font-weight: 300;
+    font-family: var(--default-font-family);
+}
+
+.about-section-content{
+    margin: 30px;
+}   
+
+
 
 .hero h2{
     color: var(--secondary-color);
@@ -147,6 +172,12 @@ color: transparent;
  .hero{
         padding: 80px 20px;
     }
+
+    .about-section{
+            padding: 0;
+            text-align: center;
+
+        }
  .hero-tagline{
         font-size: 1.2rem;
     }
@@ -158,3 +189,15 @@ color: transparent;
         text-align: center;
     }
 }
+
+
+
+.profile-photo {
+    margin-top: 2rem;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgb(206, 133, 202), 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
