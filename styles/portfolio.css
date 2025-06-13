@@ -219,4 +219,13 @@ color: transparent;
   
   
   
+  .bg-contact{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: var(--default-font-family);
+    color: var(--secondary-color);
+    padding: 100px 20px;
+  }
+
   
