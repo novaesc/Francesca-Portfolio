@@ -193,9 +193,11 @@ text-align:justify;
 
 
 .content h3{
-    font-size: 24px;
+    font-size: 25px;
+    text-decoration: underline;
+    
     line-height: 1.5;
-    color: var(--secondary-color);
+    color:  rgb(139, 102, 241);
     font-weight: 300;
     font-family: var(--default-font-family);
     margin: 20px 0 0;
@@ -203,7 +205,7 @@ text-align:justify;
 
 
 .content h3:hover{
-        color: rgb(139, 102, 241);
+        color: rgb(206, 133, 202);
 
       }
 
