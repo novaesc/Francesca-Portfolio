@@ -22,21 +22,71 @@
 </head>
 
 <body>
-    <div class="content-container container">
-    <div class="row">
-    <div class="col-lg-6">
-        <div class="content"></div>
-
-    <h1 class="mb-4">Ciao, I am Francesca </h1>
-    <h2 class="mb-4">London based Web Developer <br/> Welcome to my portfolio!</h2>
-<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-</p>
-<a href="" class="btn btn-branding">View my projects </a>
+    <div class="container">
+        <nav class="d-flex justify-content-between align-items-center">
+            <a href="/about.html">
+              <p class="name d-none d-md-block">Francesca Valentini</p>
+              <p class="name d-block d-md-none">FV</p>
+            </a>
+          
+            <!-- Burger menu button -->
+            <button class="burger-menu d-md-none" id="burger-toggle" aria-label="Toggle navigation">
+              <i class="fa-solid fa-burger"></i>
+            </button>
+          
+            <!-- Navigation list -->
+            <ul class="nav-list" id="nav-list">
+              <li class="active">
+                <a href="/" title="Homepage">Home</a>
+              </li>
+              <li>
+                <a href="/work.html" title="Francesca's work">Work</a>
+              </li>
+              <li class="active">
+                <a href="/about.html" title="About Francesca">About</a>
+              </li>
+              <li>
+                <a href="/contact.html" title="Contact Francesca">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <h3 class="about-h3">FRONTEND DEVELOPER</h3>
+        <div class="container-about">
+            <div class="row align-items-start">
+              <!-- Left: About Me -->
+              <div class="col-md-6 mb-4 d-flex flex-column">
+                <h1 class="about-me mb-4">About Me</span></h1>
+                <p class="about-text">
+                    I’m currently enrolled in an online front-end development bootcamp, transitioning from a background in social media.<br/>
+                    <br/>I’m focused on creating user-friendly digital experiences and recently started an internship at Ehance-d as a junior front-end developer, working on a health app.
+                    <br/> <br/>I’m keen to:
+                    <br/> 
+                    
+                    <br/> <i class="fonts fa-regular fa-handshake"></i> Collaborate on real-world projects.
+                    <br/> <i class="fonts fa-solid fa-wrench"></i> Work with tools like HTML, CSS, JavaScript, React, and React Native.
+                    <br/> <i class="fonts fa-solid fa-arrow-up-right-dots"></i> Grow as a developer through mentorship and continuous learning.
+                
+                </p>
+<div class="button-about d-flex">
+                    <a href="/contact.html" class="btn m-5">Contact Me</a>
+                </div>
+              </div>
+          
+              <!-- Right: My Skill -->
+              <div class="col-md-6 mb-4 d-flex flex-column align-items-center text-center">
+                <h1 class="skill mb-4">Stack </h1>
+               <img src="images/stacks.png" class="stack">              
 </div>
-<div class="col-lg-6">
-<img class="profile-photo" src="images/francescafiori.jpeg" alt="" class="img-fluid">
-</div>
-</div>
-</div>
+            </div>
+          </div> 
+          <script>
+            const burger = document.getElementById("burger-toggle");
+            const navList = document.getElementById("nav-list");
+          
+            burger.addEventListener("click", () => {
+              navList.classList.toggle("active");
+            });
+          </script>    
 </body>
 </html>

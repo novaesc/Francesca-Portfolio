@@ -22,6 +22,35 @@
 </head>
 
 <body class="bg-work">
+    <div class="container">
+        <nav class="d-flex justify-content-between align-items-center">
+            <a href="/about.html">
+              <p class="name d-none d-md-block">Francesca Valentini</p>
+              <p class="name d-block d-md-none">FV</p>
+            </a>
+          
+            <!-- Burger menu button -->
+            <button class="burger-menu d-md-none" id="burger-toggle" aria-label="Toggle navigation">
+              <i class="fa-solid fa-burger"></i>
+            </button>
+          
+            <!-- Navigation list -->
+            <ul class="nav-list" id="nav-list">
+              <li >
+                <a href="/" title="Homepage">Home</a>
+              </li>
+              <li  class="active">
+                <a href="/work.html" title="Francesca's work">Work</a>
+              </li>
+              <li>
+                <a href="/about.html" title="About Francesca">About</a>
+              </li>
+              <li>
+                <a href="/contact.html" title="Contact Francesca">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
     <div class="content-container container">
 
         <div class="content">
@@ -30,25 +59,41 @@
 
     <div class="row">
     <div class="col-md-6 mb-4">
-        <img src="images/WeatherApp.png" alt="" class="img-fluid mb-3 rounded">
-        <h3 class="text-center m-0">Weather App</h3>
-        <p class="text-center text-muted-dark">built with html and css</p>
+        <img src="images/weather.png" alt="" class="img-fluid mb-3 rounded">
+        <h3 class="text-center m-0"> <a href="https://www.shecodes.io/cohorts/2117/projects/2459635?_gl=1*1civxen*_gcl_aw*R0NMLjE3NDc1NjcyNzYuQ2owS0NRandpcWJCQmhDQUFSSXNBSlNmWmtaQVZsbElBckJaTWNMLVRlR3hkNWVSc2R2Q05Kak5MOHJGNW53b084aU9HdFB1cWRYWGVhY2FBdHJWRUFMd193Y0I.*_gcl_au*MTc4ODM1OTk2Mi4xNzQ4NjAwMDg1">  Learn More</h3></a>
+        <p class="text-center text-muted-dark">This app shows the current weather in any city, complete with temperature, conditions, and forecast. <br/><strong>Tech used: </strong>HTML, CSS, JavaScript, OpenWeather API.</p>
     </div>
     <div class="col-md-6 mb-4">
-        <img src="images/ConversationStarter.png" alt="" class="img-fluid mb-3 rounded">
-        <h3 class="text-center m-0">Conversation Starter</h3>
-        <p class="text-center text-muted-dark">built with html and css</p>
+        <img src="images/dinner.png" alt="" class="img-fluid mb-3 rounded">
+        <h3 class="text-center m-0"> <a href="https://www.shecodes.io/cohorts/2368/projects/2563902?_gl=1*rhhjt3*_gcl_aw*R0NMLjE3NDc1NjcyNzYuQ2owS0NRandpcWJCQmhDQUFSSXNBSlNmWmtaQVZsbElBckJaTWNMLVRlR3hkNWVSc2R2Q05Kak5MOHJGNW53b084aU9HdFB1cWRYWGVhY2FBdHJWRUFMd193Y0I.*_gcl_au*MTc4ODM1OTk2Mi4xNzQ4NjAwMDg1"> Learn More</h3></a>
+        <p class="text-center text-muted-dark">This project is a Family Dinner Conversation Starter app built as part of SheCodes Plus AI. It suggests fun prompts to spark conversation around the table.
+           <br/><strong> Tech used: </strong>HTML, CSS, JavaScript, OpenAI API.</p>
     </div>
     <div class="col-md-6 mb-4">
-        <img src="images/WolrdClock.jpg" alt="" class="img-fluid mb-3 rounded">
-        <h3 class="text-center m-0">World Clock</h3>
-        <p class="text-center text-muted-dark">built with html and css</p>
+        <img src="images/clock.png" alt="" class="img-fluid mb-3 rounded">
+        <h3 class="text-center m-0"> <a href="https://www.shecodes.io/cohorts/2214/projects/2469522?_gl=1*1civxen*_gcl_aw*R0NMLjE3NDc1NjcyNzYuQ2owS0NRandpcWJCQmhDQUFSSXNBSlNmWmtaQVZsbElBckJaTWNMLVRlR3hkNWVSc2R2Q05Kak5MOHJGNW53b084aU9HdFB1cWRYWGVhY2FBdHJWRUFMd193Y0I.*_gcl_au*MTc4ODM1OTk2Mi4xNzQ4NjAwMDg1">  Learn More</h3></a>
+        <p class="text-center text-muted-dark"> This project displays the current time in different cities around the world using real-time updates. It was a great way to practice working with live data and time zones.
+            <br/><strong>  Tech used: </strong>HTML, CSS, JavaScript, Moment.js.</p>
     </div>
+    <div class="col-md-6 mb-4">
+        <img src="images/bootcamp.png" alt="" class="img-fluid mb-3 rounded">
+        <h3 class="text-center m-0"> <a href="https://www.shecodes.io/graduates/130633-francesca-valentini">   Learn More</h3></a>
+        <p class=" text-center text-muted-dark">Curious about my coding journey?<br/>
+            Check out my SheCodes profile to see what I’ve been learning, my projects, and certifications along the way.</p>
+    </div>
+
 </div>
 </div>
 </div>
 </div>
 
-
+<script>
+    const burger = document.getElementById("burger-toggle");
+    const navList = document.getElementById("nav-list");
+  
+    burger.addEventListener("click", () => {
+      navList.classList.toggle("active");
+    });
+  </script>    
 </body>
 </html>
