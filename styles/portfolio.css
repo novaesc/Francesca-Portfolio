@@ -512,4 +512,44 @@ nav {
   }
   
  
+  @media (max-width: 768px) {
+    .col-md-6 {
+      padding: 30px 15px;
+      text-align: center;
+    }
+  
+    .about-text {
+      margin-left: 0;
+      padding: 0 10px;
+      text-align: left;
+    }
+  
+    .button-about {
+      justify-content: center;
+      margin: 20px 0;
+    }
+  
+    .stack {
+      width: 100%;
+      height: auto;
+      max-width: 300px;
+    }
+  
+    .about-me,
+    .skill {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .about-h3 {
+      font-size: 30px;
+    }
+  
+    h1,
+    h2 {
+      font-size: 30px !important;
+      margin-left: 0 !important;
+      text-align: center;
+    }
+  }
   

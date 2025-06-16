@@ -84,12 +84,14 @@
             </div>
           </footer>
           <script>
-            const burger = document.getElementById("burger-toggle");
-            const navList = document.getElementById("nav-list");
+            document.addEventListener("DOMContentLoaded", function () {
+              const burger = document.getElementById("burger-toggle");
+              const navList = document.getElementById("nav-list");
           
-            burger.addEventListener("click", () => {
-              navList.classList.toggle("active");
+              burger.addEventListener("click", () => {
+                navList.classList.toggle("active");
+              });
             });
-          </script>    
+          </script> 
 </body>
 </html>
