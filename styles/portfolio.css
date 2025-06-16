@@ -409,37 +409,6 @@ nav {
         object-fit: contain;
       }
       
-@media (max-width: 900px) {
-
- .hero h1 {
-        font-size: 40px;
-        line-height: 1;
-        text-align: center;
-    }
-    
- .hero h2{
-    font-size: 20px;
-    text-align: center;
-    font-size: 1.2rem;
-    margin-top: 10px;
-    }
-
- .hero{
-        padding-top: 30px;
-    }
-
-
- .hero-header {
-     flex-direction: column;
-     align-items: center;
-          }
-     
-        
- .button-group {
-     flex-direction: column;
-    align-items: center;
-          }
-        }
 
 .content-container{
             padding: 0;
@@ -450,18 +419,36 @@ nav {
         font-size: 1.2rem;
     }
     
-    @media (max-width: 767px) {
-        .profile-photo {
-          display: none !important;
-        }
-      }
 
-      @media (min-width: 768px) {
-        .profile-photo {
-          display: block;
-        }
-      }
+/*Home*/
 
+@media (max-width: 768px) {
+    .hero {
+      padding: 40px 15px;
+      text-align: center;
+    }
+  
+    .hero-header {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .hero-text h1,
+    .hero-text h2 {
+      font-size: 32px !important;
+      margin-left: 0 !important;
+      text-align: center;
+    }
+  
+    .profile-photo {
+      width: 200px;
+      height: 200px;
+      display: block;
+    }
+  }
+  
+  
 
 @media (max-width: 900px) {
 .project-description{
@@ -477,11 +464,7 @@ nav {
     }
   }
   
-  @media (max-width: 900px) {
-    .profile-photo {
-      display: none !important;
-    }
-  }
+ 
   
   /*NAV BAR*/
 
@@ -553,3 +536,5 @@ nav {
     }
   }
   
+
+
