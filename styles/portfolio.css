@@ -438,13 +438,13 @@ nav {
     }
   
     .hero-text h1 {
-      font-size: 30px !important;
+      font-size: 35px !important;
       margin-left: 0 !important;
       text-align: center;
     }
 
     .hero-text h2{
-      font-size: 20px;
+      font-size: 25px;
       margin-left: 0 !important;
       text-align: center; 
     }
@@ -538,14 +538,14 @@ nav {
       font-size: 25px;}
   
     h1 {
-      font-size: 30px !important;
+      font-size: 35px !important;
       margin-left: 0 !important;
       text-align: center;
     }
   }
   
   h2{
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 0 !important;
     text-align: center;
   }
