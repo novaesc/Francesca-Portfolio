@@ -375,7 +375,6 @@ nav {
 
 
     footer {
-        margin: 60px 0;
         text-align: center;
       }
       
@@ -386,6 +385,7 @@ nav {
         gap: 20px;
         align-items: center;
         flex-direction: row;
+        
       }
       
       footer a {
