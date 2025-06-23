@@ -435,11 +435,16 @@ nav {
       gap: 20px;
     }
   
-    .hero-text h1,
-    .hero-text h2 {
+    .hero-text h1 {
       font-size: 32px !important;
       margin-left: 0 !important;
       text-align: center;
+    }
+
+    .hero-text h2{
+      font-size: 25px;
+      margin-left: 0 !important;
+      text-align: center; 
     }
   
     .profile-photo {
