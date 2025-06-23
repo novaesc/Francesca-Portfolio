@@ -438,13 +438,13 @@ nav {
     }
   
     .hero-text h1 {
-      font-size: 32px !important;
+      font-size: 30px !important;
       margin-left: 0 !important;
       text-align: center;
     }
 
     .hero-text h2{
-      font-size: 25px;
+      font-size: 20px;
       margin-left: 0 !important;
       text-align: center; 
     }
@@ -456,13 +456,7 @@ nav {
     }
   }
 
-  @media (max-width: 400px) {
-    .hero-text h2 {
-      font-size: 18px;
-      line-height: 1.4;
 
-    }
-  }
   
   
 
@@ -541,15 +535,19 @@ nav {
     }
   
     .about-h3 {
-      font-size: 30px;}
+      font-size: 25px;}
   
-    h1,
-    h2 {
+    h1 {
       font-size: 30px !important;
       margin-left: 0 !important;
       text-align: center;
     }
   }
   
+  h2{
+    font-size: 20px;
+    margin-left: 0 !important;
+    text-align: center;
+  }
 
 
