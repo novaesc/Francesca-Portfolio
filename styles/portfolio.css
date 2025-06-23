@@ -70,6 +70,7 @@ h1{
     line-height: 1.5;
     margin: 0;
     margin-left: 17px;
+    text-align: left;
 
 }
 
@@ -83,9 +84,8 @@ h1{
     font-size: 40px;
     line-height: 1.5;
     margin-left: 17px ;
-    word-break: break-word;
+    text-align: left;
 
-    
 
 }
 
@@ -537,14 +537,14 @@ nav {
     .about-h3 {
       font-size: 25px;}
   
-    h1 {
+    .h1 {
       font-size: 35px !important;
       margin-left: 0 !important;
       text-align: center;
     }
   }
   
-  h2{
+  .h2{
     font-size: 25px;
     margin-left: 0 !important;
     text-align: center;
