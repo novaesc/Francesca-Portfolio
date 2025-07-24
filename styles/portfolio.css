@@ -518,9 +518,15 @@ nav {
     }
   
     .button-about {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
       justify-content: center;
-      margin: 20px 0;
+      margin: 15px 0;
+      text-align: center;
     }
+    
+   
   
     .stack {
       width: 100%;
